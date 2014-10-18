@@ -9,11 +9,12 @@ Generate a random result based on multiple arrays. I couldn't find one as simple
 - comment out variables if you don't need all three, or add more, whatever.
 - multiple words will always split so only one word answers please.
 
+[Demo](http://zlbs.co/randomiser)
 
 
 **This will be way better when I...**
 
-- don't force the browser to refresh to refresh my array, that's dumb
-- get a bit of animation in there
+- ~~don't force the browser to refresh to refresh my array, that's dumb~~
+- ~~get a bit of animation in there~~
 - try and split arrays into separate files so lots can be made easily and plugged together
 - allow user to edit words and arrays from website
