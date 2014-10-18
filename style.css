@@ -32,11 +32,6 @@ table {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-html {
-  font-size: 62.5%; }
-  @media screen and (min-width: 768px) {
-    html {
-      font-size: 75%; } }
 
 body {
   font-family: "Lato", Verdana, Geneva, sans-serif;
@@ -82,24 +77,10 @@ h1 {
 h2 {
   font-size: 2.8rem; }
 
-h3 {
-  font-size: 2.4rem; }
-
-h4 {
-  font-size: 2rem;
-  font-weight: bold; }
-
-h5 {
-  font-size: 2rem;
-  font-weight: normal; }
-
-h6 {
-  font-size: 2rem;
-  font-style: italic; }
-
 a:link {
   color: #216a9e;
-  text-decoration: underline; }
+  text-decoration: none;
+  }
 
 a:visited {
   color: purple; }
@@ -191,7 +172,9 @@ li span {
 }
 
 footer {
-	text-align: center;;
+	color: #777;
+	text-align: center;
+	font-size: 15px;
 	width: 100%;
 	padding: 10px 0;
 	position: absolute;
@@ -200,8 +183,9 @@ footer {
 }
 
 footer a, footer a:visited {
-	color: #222;
+	color: #6397e5;
 	text-decoration: none;
+	border-bottom: 1px dotted #999;
 }
 
 .button {
