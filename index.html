@@ -7,22 +7,23 @@
 		<link rel="stylesheet" type="text/css" href="style.css">
 
 		<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-		<!--<script src="ing.js"  type="text/javascript"></script>-->
 		<script src="random.js"  type="text/javascript"></script>
 	</HEAD>
 	<BODY>
 		<div class="container">   	
 			<ul class="random">
-				<li class="array1 result"></li>
+				<li id="array1" class="result"></li>
 				<li>are</li>
-				<li class="array2 result"></li>
+				<li id="array2" class="result"></li>
 				<li>for</li>
-				<li class="array3 result"></li>
+				<li id="array3" class="result"></li>
 			</ul>
-			<button style="button" onClick="window.location.reload()">Hit me!</button>
+			<input type="button" value="Hit me!" class="button" id="randomise" onclick="HitMe();" />
 		</div>
 		<footer>
 			<p><a href="http://jonnyburch.com">Jonny</a>'s Randomiser</p>
 		</footer>
 	</BODY>
 </HTML>
+
+<!--  onClick="window.location.reload()" -->

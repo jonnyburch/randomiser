@@ -201,7 +201,7 @@ footer a, footer a:visited {
 	border-bottom: 1px solid #777;
 }
 
-button {
+.button {
 	background-color: #fff;
 	color: #555;
 	border: 1px solid #ccc;
