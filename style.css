@@ -186,6 +186,10 @@ li.result {
 	font-weight: 700;
 }
 
+li span {
+	color: #ddd;
+}
+
 footer {
 	text-align: center;;
 	width: 100%;
@@ -198,10 +202,10 @@ footer {
 footer a, footer a:visited {
 	color: #222;
 	text-decoration: none;
-	border-bottom: 1px solid #777;
 }
 
 .button {
+	margin-top: 50px;
 	background-color: #fff;
 	color: #555;
 	border: 1px solid #ccc;
@@ -209,4 +213,15 @@ footer a, footer a:visited {
 	border-radius: 7px;
 	padding: 10px;
 	font-size: 18px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
 }
+
+.button:hover {
+	background-color: #6397e5;
+	border: 1px solid #6397e5;
+	color: #fff;
+	box-shadow: 0px 0px 0px #eee;
+}
+
+textarea, input { outline: none; }

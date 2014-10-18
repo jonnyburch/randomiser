@@ -11,7 +11,7 @@ Generate a random result based on multiple arrays. I couldn't find one as simple
 
 
 
-**This will be way better when I**
+**This will be way better when I...**
 
 - don't force the browser to refresh to refresh my array, that's dumb
 - get a bit of animation in there
