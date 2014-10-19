@@ -64,11 +64,6 @@ pre {
 h1, h2, h3, h4, h5, h6 {
   padding: 13px 0 21px;
   line-height: 1.2; }
-  @media screen and (min-width: 768px) {
-    h1, h2, h3, h4, h5, h6 {
-      padding-bottom: 21px 0 34px; } }
-  h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, h6:first-child {
-    padding-top: 0; }
 
 h1 {
   font-size: 3.4rem;
@@ -96,15 +91,9 @@ img {
 
 hr, pre, blockquote {
   margin-bottom: 13px; }
-  @media screen and (min-width: 768px) {
-    hr, pre, blockquote {
-      margin-bottom: 21px; } }
 
 p, img, ul, ol, dl, dd, figure, figcaption {
   padding-bottom: 13px; }
-  @media screen and (min-width: 768px) {
-    p, img, ul, ol, dl, dd, figure, figcaption {
-      padding-bottom: 21px; } }
 
 hr {
   border-top: 1px solid #cdcdce;
@@ -115,22 +104,11 @@ hr {
 blockquote {
   margin-left: 13px;
   border-left: 3px solid #cdcdce;
-  padding: 8px 13px; }
-  @media screen and (min-width: 768px) {
-    blockquote {
-      margin-left: 21px;
-      border-left: 5px solid #cdcdce;
-      padding: 13px 21px; } }
-  blockquote p:last-child {
-    padding-bottom: 0; }
+  padding: 8px 13px; 
+}
 
 ol, ul {
   margin-left: 21px; }
-  @media screen and (min-width: 768px) {
-    ol, ul {
-      margin-left: 34px; } }
-
-/* Jonny's styles */
 
 .container {
 	padding-top: 60px;
@@ -155,11 +133,7 @@ ul {
   text-indent: 34px; 
 }
 
-ul.random {
-	display: block;
-}
-
-ul.random li {
+ul.random, ul.random li {
 	display: inline;
 }
 
@@ -209,3 +183,5 @@ footer a, footer a:visited {
 }
 
 textarea, input { outline: none; }
+
+.break {clear: both;}
