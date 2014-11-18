@@ -163,7 +163,8 @@ footer a, footer a:visited {
 }
 
 .button {
-	margin-top: 50px;
+  display: block;
+	margin: 50px auto 0 auto;
 	background-color: #fff;
 	color: #555;
 	border: 1px solid #ccc;
@@ -180,8 +181,61 @@ footer a, footer a:visited {
 	border: 1px solid #6397e5;
 	color: #fff;
 	box-shadow: 0px 0px 0px #eee;
+  cursor: pointer;
 }
+
+.button:focus {outline:0;}
 
 textarea, input { outline: none; }
 
 .break {clear: both;}
+
+/* Stu's additions
+------------------------------ */
+.chooseLists {
+  display: inline;
+  clear: both;
+  color: #6397e5;
+  padding: 0;
+  margin-top: 10px;
+  font-size: 0.5em;
+  border-bottom: dotted 1px #999;
+}
+
+.chooseLists:hover {
+  cursor: pointer;
+}
+
+.listChooser {
+  max-width: 1024px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.listChooser__input {
+  display: inline-block;
+}
+
+.listChooser__input + .listChooser__input {
+  padding-left: 10px;
+}
+
+.listChooser__input label {
+  font-size: 16px;
+}
+
+.listChooser__input select {
+  height: 16px;
+  line-height: 16px;
+}
+
+.wrapper--listChooser {
+  overflow: hidden;
+  background-color: #6397e5;
+  height: 0;
+}
+
+.open {
+  height: auto;
+}
