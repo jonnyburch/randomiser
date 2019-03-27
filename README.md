@@ -9,7 +9,7 @@ Generate a random result based on multiple arrays. I couldn't find one as simple
 - comment out variables if you don't need all three, or add more, whatever.
 - multiple words will always split so only one word answers please.
 
-[Demo](http://zlbs.co/randomiser)
+[Demo (now updated to netlify](https://randomiser.netlify.com)
 
 
 **This will be way better when I...**
